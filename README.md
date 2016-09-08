@@ -1,3 +1,5 @@
 # Warcdealer
 
-Instructions for using, installing and/or updating to the current version of Warcdealer are available at http://futuramerlin.com/ancillary/warcdealer/.
+Warcdealer is part of the Ember project.
+
+Learn about this project at the Ember Web site: http://futuramerlin.com/ancillary/warcdealer/

@@ -1,5 +1,6 @@
 <?php 
 
+#from http://stackoverflow.com/questions/2040240/php-function-to-generate-v4-uuid
 function gen_uuid() {
     return sprintf( '%04x%04x-%04x-%04x-%04x-%04x%04x%04x',
         // 32 bits for "time_low"

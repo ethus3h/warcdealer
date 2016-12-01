@@ -68,11 +68,31 @@ if [[ $warcdealerArchiveIndexEnabled == true ]]; then
     cd "$warcdealerWARCPath"
 fi
 
+if [[ $warcdealerAllowRemoteJobControl == true ]]; then
+    (
+        cd ~/.warcdealer
+        php -S localhost:9500
+    )
+fi
 while true; do
     if [[ $warcdealerAllowRemoteJobControl == true ]]; then
         (
             cd ~/.warcdealer
-            php -S localhost:9500
+            for request in *; do
+                if [ -f "${request}" ]; then
+                    (
+                        nohup a "$(cat "${request}")" &
+                    )
+                fi
+            done
+            cd multiseed
+            for request in *; do
+                if [ -f "${request}" ]; then
+                    (
+                        nohup a -i "$(cat "${request}")" &
+                    )
+                fi
+            done
         )
     fi
     left=$(df "$warcdealerDiskMonitorPartition" | grep / | sed -r 's/ +/ /g' | cut -f 4 -d ' ')

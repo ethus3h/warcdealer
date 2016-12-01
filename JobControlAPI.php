@@ -23,27 +23,30 @@ function gen_uuid() {
     );
 }
 
-$filename = "pending/" . gen_uuid();
-if ($_REQUEST[actionType] === "i") {
-    $filename = "pending/multiseed" . gen_uuid();
-}
-$url = $_REQUEST[actionUrl];
-if (is_writable($filename)) {
-    if (!$handle = fopen($filename, 'w')) {
-         header("HTTP/1.0 503 Service Unavailable");
-         exit;
+$password = $_REQUEST[password];
+if ($_REQUEST[password] === "ThisIsntEvenMyFinalPassword") {
+    $filename = "pending/" . gen_uuid();
+    if ($_REQUEST[actionType] === "i") {
+        $filename = "pending/multiseed" . gen_uuid();
     }
-    if (fwrite($handle, $somecontent) === FALSE) {
+    $url = $_REQUEST[actionUrl];
+    if (is_writable($filename)) {
+        if (!$handle = fopen($filename, 'w')) {
+             header("HTTP/1.0 503 Service Unavailable");
+             exit;
+        }
+        if (fwrite($handle, $somecontent) === FALSE) {
+            header("HTTP/1.0 503 Service Unavailable");
+            exit;
+        }
+        header("HTTP/1.0 200 OK");
+        echo $filename;
+        fclose($handle);
+        exit
+    } else {
         header("HTTP/1.0 503 Service Unavailable");
-        exit;
+        exit
     }
-    header("HTTP/1.0 200 OK");
-    echo $filename;
-    fclose($handle);
-    exit
-} else {
-    header("HTTP/1.0 503 Service Unavailable");
-    exit
 }
 
  ?>

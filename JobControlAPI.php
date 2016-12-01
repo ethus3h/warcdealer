@@ -26,7 +26,7 @@ function gen_uuid() {
 $password = $_REQUEST[password];
 if ($_REQUEST[password] === "ThisIsntEvenMyFinalPassword") {
     $filename = "pending/" . gen_uuid();
-    if ($_REQUEST[actionType] === "i") {
+    if ($_REQUEST[actionType] === "m") {
         $filename = "pending/multiseed" . gen_uuid();
     }
     $url = $_REQUEST[actionUrl];

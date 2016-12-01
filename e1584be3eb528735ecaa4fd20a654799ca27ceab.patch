@@ -1,0 +1,54 @@
+From e1584be3eb528735ecaa4fd20a654799ca27ceab Mon Sep 17 00:00:00 2001
+From: ethus3h <kolubat@gmail.com>
+Date: Wed, 30 Nov 2016 21:08:52 -0500
+Subject: [PATCH] Update dashboard.html
+
+---
+ libgrabsite/dashboard.html | 34 ++++++++++++++++++++++++++++++++++
+ 1 file changed, 34 insertions(+)
+
+diff --git a/libgrabsite/dashboard.html b/libgrabsite/dashboard.html
+index aee0c74..19423dd 100644
+--- a/libgrabsite/dashboard.html
++++ b/libgrabsite/dashboard.html
+@@ -341,6 +341,40 @@
+ 			Need JavaScript (ES5+) and WebSocket
+ 		</noscript>
+ 		<div id="help" class="undisplayed">
++			<script type="text/javascript">
++				function makeJobControlAPIRequest() {
++					var server=getElementByID("jobControlTargetServer").value;
++					if(server=="") {
++						var server=encodeURIComponent(getElementByID("jobControlCustomServerField").value);
++					}
++					var passphrase=encodeURIComponent(getElementByID("jobControlPassphraseField").value);
++					var requestType=encodeURIComponent(getElementByID("jobControlRequestType").value);
++					var requestUrl=encodeURIComponent(getElementByID("jobControlRequestUrlField").value);
++					var oReq = new XMLHttpRequest();
++					oReq.addEventListener("load", reqListener);
++					oReq.open("GET", "http://"+server+"/JobControlAPI.php?actionType="+requestType+"&password="+passphrase+"&actionUrl="+requestUrl);
++					oReq.send();
++				}
++			</script>
++			<form>
++				Server: <select id="jobControlTargetServer">
++					<option value="127.0.0.1">Localhost</option>
++					<option value="example.org">Example</option>
++					<option value="">Use custom</option>
++				</select>
++				Custom server: <input id="jobControlCustomServerField" type="text" />
++				Passphrase: <input id="jobControlPassphraseField" type="text" />
++				Action: <select id="jobControlRequestType">
++					<option value="a">Archive this URL</option>
++					<option value="m">Archive from this seed list</option>
++					<!-- <option value="d">Set delay to this</option> -->
++					<!-- <option value="c">Set concurrency to this</option> -->
++					<!-- <option value="i">Add this ignore pattern</option> -->
++					<!-- <option value="u">Remove this ignore pattern</option> -->
++				</select>
++				Value: <input id="jobControlRequestURLField" type="text" />
++				<input id="jobControlSubmitButton" type="button" onClick="makeJobControlAPIRequest" />
++			</form>
+ 			<p>
+ 				This page shows all of the crawls that are being reported to this server by your grab-site processes.
+ 			</p>

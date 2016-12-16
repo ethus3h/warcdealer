@@ -28,7 +28,7 @@ op() { cd ~/grabs/ && grab-site --no-dupespotter --concurrency=5 --wpull-args=--
 export -f op;
 
 #Start Warcdealer
-warcdealer() { ~/.warcdealer }
+warcdealer() { ~/.warcdealers }
 export -f warcdealer;
 
 #Quickly upload a file to the Internet Archive (for emergencies)

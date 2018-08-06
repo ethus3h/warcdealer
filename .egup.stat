@@ -106,24 +106,6 @@ Change: 2017-05-30 23:22:08.755442516 -0400\
 
 
 
-  File: ./.git\
-
-  Size: 71        	Blocks: 1          IO Block: 512    regular file\
-
-Device: 32h/50d	Inode: 3187610     Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-08-05 03:47:55.098112250 -0400\
-
-Modify: 2017-05-30 23:22:08.755442516 -0400\
-
-Change: 2017-05-30 23:22:08.755442516 -0400\
-
- Birth: -\
-
-
-
   File: ./warcdealer\
 
   Size: 6323      	Blocks: 6          IO Block: 6656   regular file\

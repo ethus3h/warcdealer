@@ -1,198 +1,45 @@
-  File: ./warcdealer-ia-upload\
-
-  Size: 566       	Blocks: 2          IO Block: 1024   regular file\
-
-Device: 32h/50d	Inode: 3187774     Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-07-07 00:20:21.918074553 -0400\
-
-Modify: 2017-05-30 23:22:08.755442516 -0400\
-
-Change: 2017-05-30 23:22:08.755442516 -0400\
-
- Birth: -\
-
-
-
-  File: ./CONTRIBUTING.md\
-
-  Size: 356       	Blocks: 2          IO Block: 512    regular file\
-
-Device: 32h/50d	Inode: 378392      Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-02-09 19:40:21.383360371 -0500\
-
-Modify: 2017-07-10 04:00:44.761451991 -0400\
-
-Change: 2017-07-10 04:00:44.761451991 -0400\
-
- Birth: -\
-
-
-
-  File: ./e1584be3eb528735ecaa4fd20a654799ca27ceab.patch\
-
-  Size: 2470      	Blocks: 3          IO Block: 2560   regular file\
-
-Device: 32h/50d	Inode: 3187770     Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-02-09 19:40:21.393360417 -0500\
-
-Modify: 2017-05-30 23:22:08.755442516 -0400\
-
-Change: 2017-05-30 23:22:08.755442516 -0400\
-
- Birth: -\
-
-
-
-  File: ./LICENSE.md\
-
-  Size: 34280     	Blocks: 24         IO Block: 34304  regular file\
-
-Device: 32h/50d	Inode: 3187768     Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-02-09 19:40:21.393360417 -0500\
-
-Modify: 2017-05-30 23:22:08.755442516 -0400\
-
-Change: 2017-05-30 23:22:08.755442516 -0400\
-
- Birth: -\
-
-
-
-  File: ./warcdealer-ia-upload-split\
-
-  Size: 562       	Blocks: 2          IO Block: 1024   regular file\
-
-Device: 32h/50d	Inode: 3187775     Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-07-07 00:20:21.918074553 -0400\
-
-Modify: 2017-05-30 23:22:08.765442873 -0400\
-
-Change: 2017-05-30 23:22:08.765442873 -0400\
-
- Birth: -\
-
-
-
-  File: ./viewer.patch\
-
-  Size: 981       	Blocks: 2          IO Block: 1024   regular file\
-
-Device: 32h/50d	Inode: 3187771     Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-02-09 19:40:21.393360417 -0500\
-
-Modify: 2017-05-30 23:22:08.755442516 -0400\
-
-Change: 2017-05-30 23:22:08.755442516 -0400\
-
- Birth: -\
-
-
-
-  File: ./warcdealer\
-
-  Size: 6323      	Blocks: 6          IO Block: 6656   regular file\
-
-Device: 32h/50d	Inode: 3187772     Links: 1\
-
-Access: (0755/-rwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-07-07 00:20:21.918074553 -0400\
-
-Modify: 2017-05-30 23:22:08.755442516 -0400\
-
-Change: 2017-05-30 23:22:08.755442516 -0400\
-
- Birth: -\
-
-
-
-  File: ./README.md\
-
-  Size: 292       	Blocks: 2          IO Block: 512    regular file\
-
-Device: 32h/50d	Inode: 3187769     Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-07-07 00:20:21.918074553 -0400\
-
-Modify: 2017-05-30 23:22:08.755442516 -0400\
-
-Change: 2017-05-30 23:22:08.755442516 -0400\
-
- Birth: -\
-
-
-
-  File: ./CODE_OF_CONDUCT.md\
-
-  Size: 3229      	Blocks: 4          IO Block: 3584   regular file\
-
-Device: 32h/50d	Inode: 378391      Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-02-09 19:40:21.383360371 -0500\
-
-Modify: 2017-07-10 04:00:44.761451991 -0400\
-
-Change: 2017-07-10 04:00:44.761451991 -0400\
-
- Birth: -\
-
-
-
-  File: ./JobControlAPI.php\
-
-  Size: 1549      	Blocks: 3          IO Block: 2048   regular file\
-
-Device: 32h/50d	Inode: 3187767     Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-02-09 19:40:21.393360417 -0500\
-
-Modify: 2017-05-30 23:22:08.755442516 -0400\
-
-Change: 2017-05-30 23:22:08.755442516 -0400\
-
- Birth: -\
-
-
-
-  File: ./warcdealer-aliases\
-
-  Size: 3145      	Blocks: 3          IO Block: 3584   regular file\
-
-Device: 32h/50d	Inode: 3187773     Links: 1\
-
-Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
-
-Access: 2018-07-07 00:20:21.918074553 -0400\
-
-Modify: 2017-05-30 23:22:08.755442516 -0400\
-
-Change: 2017-05-30 23:22:08.755442516 -0400\
-
- Birth: -\
-
-
+3.1.2.5.14.111
+./warcdealer-ia-upload
+:
+f:644:1000:kyan:1000:kyan:2017:05:30:23:22:08.7554425160:EDT:2017:05:30:23:22:08.7554425160:EDT
+
+./CONTRIBUTING.md
+:
+f:644:1000:kyan:1000:kyan:2017:07:10:04:00:44.7614519910:EDT:2017:07:10:04:00:44.7614519910:EDT
+
+./e1584be3eb528735ecaa4fd20a654799ca27ceab.patch
+:
+f:644:1000:kyan:1000:kyan:2017:05:30:23:22:08.7554425160:EDT:2017:05:30:23:22:08.7554425160:EDT
+
+./LICENSE.md
+:
+f:644:1000:kyan:1000:kyan:2017:05:30:23:22:08.7554425160:EDT:2017:05:30:23:22:08.7554425160:EDT
+
+./warcdealer-ia-upload-split
+:
+f:644:1000:kyan:1000:kyan:2017:05:30:23:22:08.7654428730:EDT:2017:05:30:23:22:08.7654428730:EDT
+
+./viewer.patch
+:
+f:644:1000:kyan:1000:kyan:2017:05:30:23:22:08.7554425160:EDT:2017:05:30:23:22:08.7554425160:EDT
+
+./warcdealer
+:
+f:755:1000:kyan:1000:kyan:2017:05:30:23:22:08.7554425160:EDT:2017:05:30:23:22:08.7554425160:EDT
+
+./README.md
+:
+f:644:1000:kyan:1000:kyan:2017:05:30:23:22:08.7554425160:EDT:2017:05:30:23:22:08.7554425160:EDT
+
+./CODE_OF_CONDUCT.md
+:
+f:644:1000:kyan:1000:kyan:2017:07:10:04:00:44.7614519910:EDT:2017:07:10:04:00:44.7614519910:EDT
+
+./JobControlAPI.php
+:
+f:644:1000:kyan:1000:kyan:2017:05:30:23:22:08.7554425160:EDT:2017:05:30:23:22:08.7554425160:EDT
+
+./warcdealer-aliases
+:
+f:644:1000:kyan:1000:kyan:2017:05:30:23:22:08.7554425160:EDT:2017:05:30:23:22:08.7554425160:EDT
 
